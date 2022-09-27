@@ -1,0 +1,2 @@
+1) Some commonly raised Exceptions are ArithmeticError, AttributeError, ImportError, IOError, FileNotFoundError, etc.
+2) User-defined Python exceptions can be either strings or Python classes. Since classes have many nice properties when used as exceptions, it is desirable to migrate to a situation where classes are used exclusively. Prior to Python 1.5 alpha 4, Python's standard exceptions (IOError, TypeError, etc.) were defined as strings. Changing these to classes posed some particularly nasty backward compatibility problems.
